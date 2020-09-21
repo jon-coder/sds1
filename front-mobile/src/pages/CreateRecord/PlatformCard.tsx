@@ -3,7 +3,7 @@ import { FontAwesome5 as Icon} from '@expo/vector-icons';
 import { Text, StyleSheet } from 'react-native';
 import { GamePlatform } from './types';
 import { RectButton } from 'react-native-gesture-handler';
-import { onChange } from 'react-native-reanimated';
+
 
 type Props = {
     platform: GamePlatform;
